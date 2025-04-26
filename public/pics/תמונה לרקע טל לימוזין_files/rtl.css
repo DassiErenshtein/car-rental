@@ -1,0 +1,74 @@
+@import "../../../atlanta/assets/css/rtl.min.css";
+
+/* Your CSS code goes here
+-------------------------------------- */
+.web3d, #top-bar ul.social-links li, #footer ul.social-links li{
+    float: left;
+}
+#top-bar .widget, .boxCar, .clientBox, .page-id-19 input[type="submit"]{
+	float: right;
+}
+#top-bar #pojo_button-2{
+	margin-left:20px;
+}
+#page-header .title-primary::after{
+	right: -400px;
+}
+#page-header .title-primary span{
+	border-radius: 10px 0 0 10px;
+}
+.rtl #header.logo-left .nav-main, .rtl .sticky-header.logo-left .nav-main{
+	clear: left;
+}
+.sf-menu li:last-child a {
+    padding-left: 0;
+	padding-right: 1.2em;
+}
+#page-header .breadcrumbs{
+	float: right !important;
+}
+.section ul li{
+	background: rgba(0, 0, 0, 0) url("/wp-content/themes/atlanta-child/assets/images/boolet-he.png") no-repeat scroll right 0;
+	padding: 2px 68px 0 0;
+}
+.page-id-176 .section ul li, .page-id-172 .section ul li, .page-id-168 .section ul li, .page-id-143 .section ul li, .page-id-122 .section ul li, .page-id-115 .section ul li{
+	padding: 10px 70px 0 0;
+}
+div.wpcf7{
+	direction: rtl;
+}
+#lightbox{
+	direction: ltr;
+}
+.contactInfo{
+	background-position:5% 90%;
+}
+div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+    display: inline-block !important;
+    margin-top: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 798px) {
+	body.rtl #pojo-a11y-toolbar {top: 170px !important;}
+	.nav-main .navbar-collapse .mobile-menu{background: #fff;}
+	#top-bar #pojo_button-2{margin-left: 35%;}
+	#top-bar {margin: 0;display: block;}
+	#top-bar #pojo_social_links-2{display: none;}
+	#top-bar a.button{font-size: 5vw;}
+	#nav_menu-2 {margin: 1.5vw 0vw 0 8vw;}
+	#page-header .title-primary{width: 100%;margin: 0;}
+	#page-header .title-primary::after{content: none;}
+	#page-header .title-primary span{padding: 0;text-align: center;border-radius: 0;}
+	#page-header .page-header-title{padding:0;}
+	.page-id-2 #builder-section-3{background-size: cover;}
+	.boxCar {float: none;margin: 10px auto;width: 100%;}
+	
+	.FaxFooter, .Fmail , .FPhone{margin: auto;float: none;}
+	.footerInfo{margin: 20px auto;}
+	.footerOne {text-align: center;}
+	#footer #sidebar-footer .widget {margin-bottom: 0;text-align: center;}
+	.web3d {float: none;margin: 0 0 20px;}
+}

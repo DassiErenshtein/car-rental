@@ -1,0 +1,23 @@
+jQuery(function($){
+
+	$('.input--chisato input').addClass('input__field input__field--chisato');
+
+	$('.input--chisato input').each(function(){
+		if( $(this).val() != '' )
+			$(this).parent().parent().addClass('input--filled');
+	});
+
+	$('.input--chisato input').focus(function(){
+		$(this).parent().parent().addClass('input--filled');
+	});
+
+	$('.input--chisato input').blur(function(){
+		if( $(this).val() == '' )
+			$(this).parent().parent().removeClass('input--filled');
+	});
+});
+
+
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+    location = 'https://www.tal-limousine.com/%d7%aa%d7%95%d7%93%d7%94/';
+}, false );
