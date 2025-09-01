@@ -41,7 +41,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## 🖼️ Screenshots
 ### Login Or Register
-![Login Or Register](pics/readme/login.jpg)
+![Login Or Register](./public/pics/readme/login.jpg)
 
 ### Home Page
 ![Home Page](pics/readme/homePage.gif)
