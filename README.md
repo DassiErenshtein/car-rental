@@ -44,13 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ![Login Or Register](./public/pics/readme/login.jpg)
 
 ### Home Page
-![Home Page](pics/readme/homePage.gif)
+![Home Page](./public/pics/readme/homePage.gif)
 
 ### Cars
-![Cars](pics/readme/products.gif)
+![Cars](./public/pics/readme/products.gif)
 
 ### Rent
-![Rent](pics/readme/takeCar.gif)
+![Rent](./public/pics/readme/takeCar.gif)
 
 ### Return Car
-![Return Car Pic](pics/readme/returnCar.gif)
+![Return Car Pic](./public/pics/readme/returnCar.gif)
